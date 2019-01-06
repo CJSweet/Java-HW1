@@ -62,6 +62,7 @@ public class Employee {
         Supervisor = visor;
     }
 
+    //PT -- override toString instead
     public void EmpSummary() {
         System.out.printf("\nEmployee Name: " + EmployeeName + "\nEmployee ID: " +
          EmployeeID + "\nEmployee Start Date: " + HireDate + "\nPosition: " + Position + "\nSupervisor Name: " + Supervisor);
