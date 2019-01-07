@@ -6,12 +6,16 @@ public class DateClass {
     private int Day;
     private int Month;
     private int Year;
+    
+    //PT -- missing diff function? -3
 
  DateClass(){
             Day = Calendar.getInstance().get(Calendar.DAY_OF_MONTH);
             Month = (Calendar.getInstance().get(Calendar.MONTH)+1);
             Year = Calendar.getInstance().get(Calendar.YEAR);
         } 
+    
+    //PT -- have a constructor that takes three arguments, too
 
  public static void CurrentDate() {
          System.out.printf("Today's date is " + (Calendar.getInstance().get(Calendar.MONTH)+1) + "/" 
