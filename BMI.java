@@ -21,6 +21,8 @@ public class BMI {
                 inches = input.nextDouble();
             }
 
+        //PT -- name these numbers
+        //    final double POUND_TO_KG = 0.453592;
         double mass = weight * 0.453592;
         double meters = inches * 0.0254;
         double bodymass = mass / (meters * meters);
